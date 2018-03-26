@@ -17,8 +17,10 @@ Once you have changed the password, you will need to update the script you are u
 
 ### Update the software 
 
-`$ fab cmd:"apt update"`
-`$ fab cmd:"apt dist-upgrade -y"`
+```
+$ fab cmd:"apt update"
+$ fab cmd:"apt dist-upgrade -y"
+```
 
 ### Expand the root file system
 
