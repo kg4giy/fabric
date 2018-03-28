@@ -30,3 +30,9 @@ $ fab cmd:"apt dist-upgrade -y"
 
 `$ fab cmd:"reboot now"`
 
+### Copy keys
+
+```
+$ cd files
+$ fab copy
+```
