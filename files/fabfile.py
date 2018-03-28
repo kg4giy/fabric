@@ -14,4 +14,4 @@ def copy():
 	run('mkdir -p /home/pi/.ssh')
 
 	#our local directory to copy
-	put('/home/pi/.ssh', '/home/pi/.ssh')
+	put('/home/pi/.ssh/authorized_keys', '/home/pi/.ssh')
