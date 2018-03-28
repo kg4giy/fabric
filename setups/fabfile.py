@@ -6,7 +6,7 @@ env.hosts = [
     'pi@192.168.20.106'
 ]
 
-env.password = 'raspberry'
+env.password = 'password'
 
 @parallel
 def cmd(command):
