@@ -28,5 +28,5 @@ $ fab cmd:"apt dist-upgrade -y"
 
 ### Reboot
 
-`$ fab cmd"reboot now"`
+`$ fab cmd:"reboot now"`
 
