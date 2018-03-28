@@ -13,7 +13,7 @@ Raspberry Pi RackStack: https://www.amazon.com/PiRacks-Raspberry-Acrylic-4-Stack
 
 `$ fab cmd:"echo pi:'newpassword' | chpasswd"`
 
-Once you have changed the password, you will need to update the script you are using going forward for ssh access or it will bomb out on you.
+Once you have changed the password, you will need to update the script you are using going forward for ssh access or it will bomb out on you. The password has to be fairly simple. Any special characters will cause issues.
 
 ### Update the software 
 
