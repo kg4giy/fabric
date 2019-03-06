@@ -26,7 +26,7 @@ def sudorun(arg):
 	sudo(arg)
 
 @task
-def download(arg)
+def download(arg):
 	get(remote_path=arg, local_path="/tmp/", use_sudo=True)
 
 @task
