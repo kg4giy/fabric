@@ -27,7 +27,7 @@ def sudorun(arg):
 
 @task
 def download(arg)
-	get(remote_path=arg, local_path="/Users/kg4giy/working/", use_sudo=True)
+	get(remote_path=arg, local_path="/tmp/", use_sudo=True)
 
 @task
 def upload(arg1, arg2):
