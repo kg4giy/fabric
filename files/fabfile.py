@@ -2,9 +2,9 @@ from fabric.api import env
 from fabric.operations import run, put
 
 env.hosts = [
-    'pi@192.168.20.101',
-    'pi@192.168.20.103',
-    'pi@192.168.20.106'
+    'pi@192.168.1.181',
+    'pi@192.168.1.183',
+    'pi@192.168.1.184'
 ]
 
 env.password = 'password'
