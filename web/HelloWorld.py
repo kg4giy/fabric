@@ -1,5 +1,5 @@
 import http.server
-from prometheus_client import Counter
+from prometheus_client import start_http_server, Counter
 
 REQUESTS = Counter('hello_worlds_total',
         'Hello Worlds requested.')
