@@ -7,13 +7,6 @@ REQUESTS = Counter('hello_worlds_total',
 
 class MyHandler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):
-        REQUESTS.inc()
-        self.send_response(200)
-        self.end_headers()
-        self.wfile.write(b"Hello World")
-
-class MyHandler(http.server.BaseHTTPRequestHandler):
-    def do_GET(self):
         self.send_response(200)
         self.end_headers()
         self.wfile.write(b"Hello World")
