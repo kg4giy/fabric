@@ -1,4 +1,14 @@
-from fabric import Connection, run, sudo, task, get, put, env
+import os
+import sys
+import time
+import boto
+import deployment
+import getpass
+import sys
+import shutil
+import os.path
+import task
+
 
 env.hosts = [
 	'pi@192.168.1.240',
@@ -20,6 +30,6 @@ env.hosts = [
 
 env.key_filename = '/home/pi/.ssh/pi.pem'
 
-@parallel 
-def cmd[command]:
-	sudo[command]
+def update_and_upgrade();
+	os.system("sudo apt update")
+	os.system("sudo apt upgrade -y")
