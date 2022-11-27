@@ -1,4 +1,4 @@
-from fabric import *
+from fabric import Connection, run, sudo, task, get, put, env
 
 env.hosts = [
 	'pi@192.168.1.240',
