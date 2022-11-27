@@ -1,0 +1,17 @@
+# Contents of $HOME/.ssh/config
+
+jake
+berry_yellow
+berry_blue
+berry_black
+xastir
+xastir-mobile
+pi_monitor
+pi4_8
+names
+xastir-touch
+pi4-8
+slot1
+slot2
+slot3
+slot4
