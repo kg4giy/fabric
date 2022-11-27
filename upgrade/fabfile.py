@@ -1,4 +1,4 @@
-from fabric.api import *
+from fabric import *
 
 env.hosts = [
 	'pi@192.168.1.240',
